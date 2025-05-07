@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.alexsandrovaa.control_task_pr3"
+    namespace = "ru.mirea.alexsandrovaa.control_task_pr4"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.alexsandrovaa.control_task_pr3"
+        applicationId = "ru.mirea.alexsandrovaa.control_task_pr4"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -25,12 +25,15 @@ android {
             )
         }
     }
+    buildFeatures {
+        dataBinding = true
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
+    viewBinding {
+        enable = true
     }
 }
 
@@ -38,11 +41,9 @@ dependencies {
     implementation ("androidx.work:work-runtime:2.9.0")
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.lifecycle.livedata.ktx)
-    implementation(libs.lifecycle.viewmodel.ktx)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
+    implementation(libs.work.runtime)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
