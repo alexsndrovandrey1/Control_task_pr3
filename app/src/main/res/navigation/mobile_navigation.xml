@@ -34,4 +34,22 @@
         android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.webview.WebViewFragment"
         android:label="@string/menu_browser"
         tools:layout="@layout/fragment_webview" />
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.hardware.CompassFragment"
+        android:label="Датчик"
+        tools:layout="@layout/fragment_compass" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.hardware.CameraNoteFragment"
+        android:label="Камера"
+        tools:layout="@layout/fragment_camera_note" />
+
+    <fragment
+        android:id="@+id/nav_microphone"
+        android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.hardware.MicrophoneTaskFragment"
+        android:label="Микрофон"
+        tools:layout="@layout/fragment_microphone_task" />
 </navigation>
