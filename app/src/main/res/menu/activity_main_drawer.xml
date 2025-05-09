@@ -36,5 +36,14 @@
             android:id="@+id/nav_microphone"
             android:icon="@drawable/ic_launcher_foreground"
             android:title="Микрофон" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_launcher_background"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_filework"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="Работа с файлами" />
     </group>
 </menu>

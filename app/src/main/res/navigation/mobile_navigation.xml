@@ -52,4 +52,16 @@
         android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.hardware.MicrophoneTaskFragment"
         android:label="Микрофон"
         tools:layout="@layout/fragment_microphone_task" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.profile.ProfileFragment"
+        android:title="Профиль"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_filework"
+        android:name="ru.mirea.alexsandrovaa.control_task_pr3.ui.filework.FileWorkFragment"
+        android:title="Работа с файлами"
+        tools:layout="@layout/fragment_file_work" />
 </navigation>
