@@ -19,24 +19,6 @@ import java.io.FileOutputStream;
 import java.io.InputStreamReader;
 
 import ru.mirea.alexsandrovaa.control_task_pr3.R;
-import ru.mirea.alexsandrovaa.control_task_pr3.databinding.FragmentProfileBinding;
-
-import android.content.Context;
-import android.os.Bundle;
-import androidx.fragment.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
-
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.InputStreamReader;
-
-import ru.mirea.alexsandrovaa.control_task_pr3.R;
 
 public class ProfileFragment extends Fragment {
 
